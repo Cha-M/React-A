@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import State from './State.js'
+// import State from './State.js'
+// import StateEdit from './StateEdit.js'
+// import Map from './Map.js'
+import Common from './Common.js'
 
 ReactDOM.render(
 
-    <State />,
-
+    <Common />,
   document.getElementById('root')
 );
 
